@@ -445,19 +445,19 @@
             <h4 id="yak9">Контакты</h4>
             <p>Если у Вас возникли вопросы, предложения или пожелания, то Вы можете нам написать письмо.</p>
         </div>
-        <form id="contactForm">
+        <form method="POST" action="https://formspree.io/mpeg_4@bk.ru" id="contactForm">
             <div class="row message">
                 <div class="six columns ">
                     <label for="user_name">Ваше имя</label>
-                    <input class="u-full-width" type="text" placeholder="Василий" id="user_name" name="user_name">
+                    <input class="u-full-width" type="text" placeholder="Василий" id="user_name" name="name">
                 </div>
                 <div class="six columns">
                     <label for="user_email">Ваш адрес электронной почты</label>
-                    <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="user_email" name="user_email">
+                    <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="user_email" name="email">
                 </div>
             </div>
             <label for="text_comment">Сообщение</label>
-            <textarea class="u-full-width" placeholder="Привет я Василий …" id="text_comment" name="text_comment"></textarea>
+            <textarea class="u-full-width" placeholder="Привет я Василий …" id="text_comment" name="message"></textarea>
             <input class="button-primary" type="submit" value="Отправить">
         </form>
     </div>
